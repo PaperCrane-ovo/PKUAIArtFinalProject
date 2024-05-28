@@ -17,16 +17,16 @@ import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/Background.png';
 // import profilepic from '../images/profilepic.jpg';
 import profilepic from '../images/coloured-co-logo.png'
-import Portfolioimage6 from '../images/portfolio/modify-公牛-柔道v1.png';
-import portfolioimage2 from '../images/portfolio/modify-北极熊-拳击v1.png';
-import Portfolioimage12 from '../images/portfolio/modify-圣贝尔纳狗-滑板v1.png';
-import portfolioimage3 from '../images/portfolio/modify-大象-足球v1.png';
-import Portfolioimage19 from '../images/portfolio/modify-朱鹮-帆船v1.png';
-import Portfolioimage5 from '../images/portfolio/modify-梵猫-排球v1.png';
-import Portfolioimage7 from '../images/portfolio/modify-海狸-游泳v1.png';
-import Portfolioimage10 from '../images/portfolio/modify-灰熊-举重v1.png';
-import Portfolioimage14 from '../images/portfolio/modify-熊猫-乒乓球v1.png';
-import Portfolioimage9 from '../images/portfolio/modify-狐猴-击剑v1.png';
+import Portfolioimage6 from '../images/portfolio/modify-公牛-柔道v1.jpg';
+import portfolioimage2 from '../images/portfolio/modify-北极熊-拳击v1.jpg';
+import Portfolioimage12 from '../images/portfolio/modify-圣贝尔纳狗-滑板v1.jpg';
+import portfolioimage3 from '../images/portfolio/modify-大象-足球v1.jpg';
+import Portfolioimage19 from '../images/portfolio/modify-朱鹮-帆船v1.jpg';
+import Portfolioimage5 from '../images/portfolio/modify-梵猫-排球v1.jpg';
+import Portfolioimage7 from '../images/portfolio/modify-海狸-游泳v1.jpg';
+import Portfolioimage10 from '../images/portfolio/modify-灰熊-举重v1.jpg';
+import Portfolioimage14 from '../images/portfolio/modify-熊猫-乒乓球v1.jpg';
+import Portfolioimage9 from '../images/portfolio/modify-狐猴-击剑v1.jpg';
 // import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 // import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -38,16 +38,16 @@ import Portfolioimage9 from '../images/portfolio/modify-狐猴-击剑v1.png';
 // import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import portfolioimage1 from '../images/portfolio/modify-白头海雕-篮球v1.png';
-import Portfolioimage16 from '../images/portfolio/modify-眼镜猴-射击v1.png';
-import Portfolioimage18 from '../images/portfolio/modify-知更鸟-射箭.png';
-import Portfolioimage17 from '../images/portfolio/modify-羊驼-网球v1.png';
-import Portfolioimage11 from '../images/portfolio/modify-考拉-高尔夫v1.png';
-import portfolioimage4 from '../images/portfolio/modify-袋鼠-曲棍球v1.png';
-import Portfolioimage15 from '../images/portfolio/modify-雪豹-羽毛球v1.png';
-import Portfolioimage13 from '../images/portfolio/modify-驼鹿-田径.png';
-import Portfolioimage8 from '../images/portfolio/modify-黑颈鹿-体操v1.png';
-import Portfolioimage20 from '../images/portfolio/ori-孟加拉虎-橄榄球v1.png';
+import portfolioimage1 from '../images/portfolio/modify-白头海雕-篮球v1.jpg';
+import Portfolioimage16 from '../images/portfolio/modify-眼镜猴-射击v1.jpg';
+import Portfolioimage18 from '../images/portfolio/modify-知更鸟-射箭.jpg';
+import Portfolioimage17 from '../images/portfolio/modify-羊驼-网球v1.jpg';
+import Portfolioimage11 from '../images/portfolio/modify-考拉-高尔夫v1.jpg';
+import portfolioimage4 from '../images/portfolio/modify-袋鼠-曲棍球v1.jpg';
+import Portfolioimage15 from '../images/portfolio/modify-雪豹-羽毛球v1.jpg';
+import Portfolioimage13 from '../images/portfolio/modify-驼鹿-田径.jpg';
+import Portfolioimage8 from '../images/portfolio/modify-黑颈鹿-体操v1.jpg';
+import Portfolioimage20 from '../images/portfolio/ori-孟加拉虎-橄榄球v1.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -117,13 +117,13 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://olympics.com/zh/paris-2024',
-      text: '前往官网',
+      href: `#${SectionId.About}`,
+      text: '精彩一览',
       primary: true,
     },
     {
-      href: `#${SectionId.About}`,
-      text: '查看介绍',
+      href: 'https://olympics.com/zh/paris-2024',
+      text: '查看更多',
       primary: false,
     },
   ],
