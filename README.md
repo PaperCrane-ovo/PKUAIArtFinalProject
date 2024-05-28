@@ -16,5 +16,7 @@ We use this [template](https://github.com/tbakerx/react-resume-template) and mod
 Welcome to our website! We're thrilled to have you here and eager to share our posters and news. But the free quota of vercel is only 100G per month, so please wait for us to launch smaller works!
 
 ## Our AI-generated Posters Display
-![](./src/images/portfolio/modify-雪豹-羽毛球v1.jpg)
-![](./src/images/portfolio/modify-熊猫-乒乓球v1.jpg)
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src="./src/images/portfolio/modify-雪豹-羽毛球v1.jpg" alt="雪豹羽毛球" style="margin: 10px; max-width: 45%; height: auto;">
+    <img src="./src/images/portfolio/modify-熊猫-乒乓球v1.jpg" alt="熊猫乒乓球" style="margin: 10px; max-width: 45%; height: auto;">
+</div>
