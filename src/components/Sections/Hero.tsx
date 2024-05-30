@@ -3,12 +3,13 @@ import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
 
+import {isMobile} from '../../config';
 import {heroData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
-  const {imageSrc,name, description, actions} = heroData;
+  const {imageSrc,imageSrcMobile,name, description, actions} = heroData;
 
   return (
     <Section noPadding sectionId={SectionId.Home}>
@@ -18,7 +19,8 @@ const Hero: FC = memo(() => {
           className="absolute z-0 h-full w-full object-cover"
           placeholder="blur"
           priority
-          src={imageSrc}
+          // 检测是否为竖屏或移动设备
+          src={isMobile ? imageSrcMobile : imageSrc}
         />
         {/* <Image
           src="../images/coloured-co-logo.png"
