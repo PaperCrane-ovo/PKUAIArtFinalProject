@@ -7,25 +7,45 @@ import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/Background.png';
 import profilepic from '../images/coloured-co-logo.png'
 import Portfolioimage6 from '../images/portfolio/modify-公牛-柔道v1.jpg';
+import jumpimage6 from '../images/jump-logo/jump-柔道.png';
 import portfolioimage2 from '../images/portfolio/modify-北极熊-拳击v1.jpg';
+import jumpimage2 from '../images/jump-logo/jump-北极熊.png';
 import Portfolioimage12 from '../images/portfolio/modify-圣贝尔纳狗-滑板v1.jpg';
+import jumpimage12 from '../images/jump-logo/jump-滑板.png';
 import portfolioimage3 from '../images/portfolio/modify-大象-足球v1.jpg';
+import jumpimage3 from '../images/jump-logo/jump-足球.png';
 import Portfolioimage20 from '../images/portfolio/modify-孟加拉虎-橄榄球v1.jpg';
+import jumpimage20 from '../images/jump-logo/jump-橄榄球.png';
 import Portfolioimage19 from '../images/portfolio/modify-朱鹮-帆船v1.jpg';
+import jumpimage19 from '../images/jump-logo/jump-帆船.png';
 import Portfolioimage5 from '../images/portfolio/modify-梵猫-排球v1.jpg';
+import jumpimage5 from '../images/jump-logo/jump-排球.png';
 import Portfolioimage7 from '../images/portfolio/modify-海狸-游泳v1.jpg';
+import jumpimage7 from '../images/jump-logo/jump-游泳.png';
 import Portfolioimage10 from '../images/portfolio/modify-灰熊-举重v1.jpg';
+import jumpimage10 from '../images/jump-logo/jump-举重.png';
 import Portfolioimage14 from '../images/portfolio/modify-熊猫-乒乓球v1.jpg';
+import jumpimage14 from '../images/jump-logo/jump-熊猫.png';
 import Portfolioimage9 from '../images/portfolio/modify-狐猴-击剑v1.jpg';
+import jumpimage9 from '../images/jump-logo/jump-击剑.png';
 import portfolioimage1 from '../images/portfolio/modify-白头海雕-篮球v1.jpg';
+import jumpimage1 from '../images/jump-logo/jump-篮球.png';
 import Portfolioimage16 from '../images/portfolio/modify-眼镜猴-射击v1.jpg';
+import jumpimage16 from '../images/jump-logo/jump-射击.png';
 import Portfolioimage18 from '../images/portfolio/modify-知更鸟-射箭v1.jpg';
+import jumpimage18 from '../images/jump-logo/jump-射箭.png';
 import Portfolioimage17 from '../images/portfolio/modify-羊驼-网球v1.jpg';
+import jumpimage17 from '../images/jump-logo/jump-网球.png';
 import Portfolioimage11 from '../images/portfolio/modify-考拉-高尔夫v1.jpg';
+import jumpimage11 from '../images/jump-logo/jump-高尔夫.png';
 import portfolioimage4 from '../images/portfolio/modify-袋鼠-曲棍球v1.jpg';
+import jumpimage4 from '../images/jump-logo/jump-曲棍球.png';
 import Portfolioimage15 from '../images/portfolio/modify-雪豹-羽毛球v1.jpg';
+import jumpimage15 from '../images/jump-logo/jump-羽毛球.png';
 import Portfolioimage13 from '../images/portfolio/modify-驼鹿-田径v1.jpg';
+import jumpimage13 from '../images/jump-logo/jump-田径.png';
 import Portfolioimage8 from '../images/portfolio/modify-黑颈鹿-体操v1.jpg';
+import jumpimage8 from '../images/jump-logo/jump-艺术体操.png';
 import {
   About,
   ContactSection,
@@ -192,122 +212,102 @@ export const skills: SkillGroup[] = [
 // Portfolio section
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: '白头海雕-篮球',
-    description: '白头海雕-篮球',
+    description: jumpimage1,
     url: 'https://olympics.com/zh/paris-2024/schedule/basketball',
     image: portfolioimage1,
   },
   {
-    title: '北极熊-拳击',
-    description: '北极熊-拳击',
+    description: jumpimage2,
     url: 'https://olympics.com/zh/paris-2024/schedule/boxing',
     image: portfolioimage2,
   },
   {
-    title: '大象-足球',
-    description: '大象-足球',
+    description: jumpimage3,
     url: 'https://olympics.com/zh/paris-2024/schedule/football',
     image: portfolioimage3,
   },
   {
-    title: '袋鼠-曲棍球',
-    description: '袋鼠-曲棍球',
+    description: jumpimage4,
     url: 'https://olympics.com/zh/paris-2024/schedule/hockey',
     image: portfolioimage4,
   },
   {
-    title: '梵猫-排球',
-    description: '梵猫-排球',
+    description: jumpimage5,
     url: 'https://olympics.com/zh/paris-2024/schedule/volleyball',
     image: Portfolioimage5,
   },
   {
-    title: '公牛-柔道',
-    description: '公牛-柔道',
+    description: jumpimage6,
     url: 'https://olympics.com/zh/paris-2024/schedule/judo',
     image: Portfolioimage6,
   },
   {
-    title: '海狸-游泳',
-    description: '海狸-游泳',
+    description: jumpimage7,
     url: 'https://olympics.com/zh/paris-2024/schedule/swimming',
     image: Portfolioimage7,
   },
   {
-    title: '黑颈鹿-体操',
-    description: '黑颈鹿-体操',
+    description: jumpimage8,
     url: 'https://olympics.com/zh/paris-2024/schedule/artistic-gymnastics',
     image: Portfolioimage8,
   },
   {
-    title: '狐猴-击剑',
-    description: '狐猴-击剑',
+    description: jumpimage9,
     url: 'https://olympics.com/zh/paris-2024/schedule/fencing',
     image: Portfolioimage9,
   },
   {
-    title: '灰熊-举重',
-    description: '灰熊-举重',
+    description: jumpimage10,
     url: 'https://olympics.com/zh/paris-2024/schedule/weightlifting',
     image: Portfolioimage10,
   },
   {
-    title: '考拉-高尔夫',
-    description: '考拉-高尔夫',
+    description: jumpimage11,
     url: 'https://olympics.com/zh/paris-2024/schedule/golf',
     image: Portfolioimage11,
   },
   {
-    title: '圣贝尔纳狗-滑板',
-    description: '圣贝尔纳狗-滑板',
+    description: jumpimage12,
     url: 'https://olympics.com/zh/paris-2024/schedule/skateboarding',
     image: Portfolioimage12,
   },
   {
-    title: '驼鹿-田径',
-    description: '驼鹿-田径',
+    description: jumpimage13,
     url: 'https://olympics.com/zh/paris-2024/schedule/athletics',
     image: Portfolioimage13,
   },
   {
-    title: '熊猫-乒乓球',
-    description: '熊猫-乒乓球',
+    description: jumpimage14,
     url: 'https://olympics.com/zh/paris-2024/schedule/table-tennis',
     image: Portfolioimage14,
   },
   {
-    title: '雪豹-羽毛球',
-    description: '雪豹-羽毛球',
+    description: jumpimage15,
     url: 'https://olympics.com/zh/paris-2024/schedule/badminton',
     image: Portfolioimage15,
   },
   {
-    title: '眼镜猴-射击',
-    description: '眼镜猴-射击',
+    description: jumpimage16,
     url: 'https://olympics.com/zh/paris-2024/schedule/shooting',
     image: Portfolioimage16,
   },
   {
-    title: '羊驼-网球',
-    description: '羊驼-网球',
+    description: jumpimage17,
     url: 'https://olympics.com/zh/paris-2024/schedule/tennis',
     image: Portfolioimage17,
   },
   {
-    title: '知更鸟-射箭',
-    description: '知更鸟-射箭',
+    description: jumpimage18,
     url: 'https://olympics.com/zh/paris-2024/schedule/archery',
     image: Portfolioimage18,
   },
   {
-    title: '朱鹮-帆船',
-    description: '朱鹮-帆船',
+    description: jumpimage19,
     url: 'https://olympics.com/zh/paris-2024/schedule/sailing',
     image: Portfolioimage19,
   },
   {
-    title: '孟加拉虎-橄榄球',
-    description: '孟加拉虎-橄榄球',
+    description: jumpimage20,
     url: 'https://olympics.com/zh/paris-2024/schedule/rugby-sevens',
     image: Portfolioimage20,
   },
