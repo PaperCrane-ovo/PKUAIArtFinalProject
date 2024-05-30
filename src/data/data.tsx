@@ -4,48 +4,48 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/Background.png';
 import profilepic from '../images/coloured-co-logo.png'
-import Portfolioimage6 from '../images/portfolio/modify-公牛-柔道v1.jpg';
-import jumpimage6 from '../images/jump-logo/jump-柔道.png';
-import portfolioimage2 from '../images/portfolio/modify-北极熊-拳击v1.jpg';
-import jumpimage2 from '../images/jump-logo/jump-北极熊.png';
-import Portfolioimage12 from '../images/portfolio/modify-圣贝尔纳狗-滑板v1.jpg';
-import jumpimage12 from '../images/jump-logo/jump-滑板.png';
-import portfolioimage3 from '../images/portfolio/modify-大象-足球v1.jpg';
-import jumpimage3 from '../images/jump-logo/jump-足球.png';
-import Portfolioimage20 from '../images/portfolio/modify-孟加拉虎-橄榄球v1.jpg';
-import jumpimage20 from '../images/jump-logo/jump-橄榄球.png';
-import Portfolioimage19 from '../images/portfolio/modify-朱鹮-帆船v1.jpg';
-import jumpimage19 from '../images/jump-logo/jump-帆船.png';
-import Portfolioimage5 from '../images/portfolio/modify-梵猫-排球v1.jpg';
-import jumpimage5 from '../images/jump-logo/jump-排球.png';
-import Portfolioimage7 from '../images/portfolio/modify-海狸-游泳v1.jpg';
-import jumpimage7 from '../images/jump-logo/jump-游泳.png';
-import Portfolioimage10 from '../images/portfolio/modify-灰熊-举重v1.jpg';
 import jumpimage10 from '../images/jump-logo/jump-举重.png';
-import Portfolioimage14 from '../images/portfolio/modify-熊猫-乒乓球v1.jpg';
-import jumpimage14 from '../images/jump-logo/jump-熊猫.png';
-import Portfolioimage9 from '../images/portfolio/modify-狐猴-击剑v1.jpg';
+import jumpimage14 from '../images/jump-logo/jump-乒乓球.png';
 import jumpimage9 from '../images/jump-logo/jump-击剑.png';
-import portfolioimage1 from '../images/portfolio/modify-白头海雕-篮球v1.jpg';
-import jumpimage1 from '../images/jump-logo/jump-篮球.png';
-import Portfolioimage16 from '../images/portfolio/modify-眼镜猴-射击v1.jpg';
 import jumpimage16 from '../images/jump-logo/jump-射击.png';
-import Portfolioimage18 from '../images/portfolio/modify-知更鸟-射箭v1.jpg';
 import jumpimage18 from '../images/jump-logo/jump-射箭.png';
-import Portfolioimage17 from '../images/portfolio/modify-羊驼-网球v1.jpg';
-import jumpimage17 from '../images/jump-logo/jump-网球.png';
-import Portfolioimage11 from '../images/portfolio/modify-考拉-高尔夫v1.jpg';
-import jumpimage11 from '../images/jump-logo/jump-高尔夫.png';
-import portfolioimage4 from '../images/portfolio/modify-袋鼠-曲棍球v1.jpg';
+import jumpimage19 from '../images/jump-logo/jump-帆船.png';
+import jumpimage2 from '../images/jump-logo/jump-拳击.png';
+import jumpimage5 from '../images/jump-logo/jump-排球.png';
 import jumpimage4 from '../images/jump-logo/jump-曲棍球.png';
-import Portfolioimage15 from '../images/portfolio/modify-雪豹-羽毛球v1.jpg';
-import jumpimage15 from '../images/jump-logo/jump-羽毛球.png';
-import Portfolioimage13 from '../images/portfolio/modify-驼鹿-田径v1.jpg';
+import jumpimage6 from '../images/jump-logo/jump-柔道.png';
+import jumpimage20 from '../images/jump-logo/jump-橄榄球.png';
+import jumpimage7 from '../images/jump-logo/jump-游泳.png';
+import jumpimage12 from '../images/jump-logo/jump-滑板.png';
 import jumpimage13 from '../images/jump-logo/jump-田径.png';
-import Portfolioimage8 from '../images/portfolio/modify-黑颈鹿-体操v1.jpg';
+import jumpimage1 from '../images/jump-logo/jump-篮球.png';
+import jumpimage17 from '../images/jump-logo/jump-网球.png';
+import jumpimage15 from '../images/jump-logo/jump-羽毛球.png';
 import jumpimage8 from '../images/jump-logo/jump-艺术体操.png';
+import jumpimage3 from '../images/jump-logo/jump-足球.png';
+import jumpimage11 from '../images/jump-logo/jump-高尔夫.png';
+import heroImage from '../images/Keyvisual.png';
+import Portfolioimage6 from '../images/portfolio/modify-公牛-柔道v1.jpg';
+import portfolioimage2 from '../images/portfolio/modify-北极熊-拳击v1.jpg';
+import Portfolioimage12 from '../images/portfolio/modify-圣贝尔纳狗-滑板v1.jpg';
+import portfolioimage3 from '../images/portfolio/modify-大象-足球v1.jpg';
+import Portfolioimage20 from '../images/portfolio/modify-孟加拉虎-橄榄球v1.jpg';
+import Portfolioimage19 from '../images/portfolio/modify-朱鹮-帆船v1.jpg';
+import Portfolioimage5 from '../images/portfolio/modify-梵猫-排球v1.jpg';
+import Portfolioimage7 from '../images/portfolio/modify-海狸-游泳v1.jpg';
+import Portfolioimage10 from '../images/portfolio/modify-灰熊-举重v1.jpg';
+import Portfolioimage14 from '../images/portfolio/modify-熊猫-乒乓球v1.jpg';
+import Portfolioimage9 from '../images/portfolio/modify-狐猴-击剑v1.jpg';
+import portfolioimage1 from '../images/portfolio/modify-白头海雕-篮球v1.jpg';
+import Portfolioimage16 from '../images/portfolio/modify-眼镜猴-射击v1.jpg';
+import Portfolioimage18 from '../images/portfolio/modify-知更鸟-射箭v1.jpg';
+import Portfolioimage17 from '../images/portfolio/modify-羊驼-网球v1.jpg';
+import Portfolioimage11 from '../images/portfolio/modify-考拉-高尔夫v1.jpg';
+import portfolioimage4 from '../images/portfolio/modify-袋鼠-曲棍球v1.jpg';
+import Portfolioimage15 from '../images/portfolio/modify-雪豹-羽毛球v1.jpg';
+import Portfolioimage13 from '../images/portfolio/modify-驼鹿-田径v1.jpg';
+import Portfolioimage8 from '../images/portfolio/modify-黑颈鹿-体操v1.jpg';
 import {
   About,
   ContactSection,
@@ -415,7 +415,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/PaperCrane-ovo/AIArtDiscussion'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/PaperCrane-ovo/PKUAIArtFinalProject'},
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   {label: 'FaceBook',Icon: FacebookIcon,href: 'https://www.facebook.com/Paris2024'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/company/paris-2024-olympic-and-paralympic-games-bid'},
