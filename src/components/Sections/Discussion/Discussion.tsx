@@ -48,19 +48,21 @@ import Section from '../../Layout/Section';
 const Discussion: FC = memo(() => {
   return (
     <Section noPadding sectionId={SectionId.Discussions}>
-      <Giscus
-        category="Announcements"
-        categoryId="DIC_kwDOMBAU-c4CfoSu"
-        emitMetadata="0"
-        lang="zh-CN"
-        loading="lazy"
-        mapping="pathname"
-        reactionsEnabled="1"
-        repo="PaperCrane-ovo/AIArtDiscussion"
-        repoId="R_kgDOMBAU-Q"
-        strict="0"
-        theme="noborder_dark"
-      />
+      <div style={{margin: '5vw'}}>
+        <Giscus
+          category="Announcements"
+          categoryId="DIC_kwDOMBAU-c4CfoSu"
+          emitMetadata="0"
+          lang="zh-CN"
+          loading="lazy"
+          mapping="pathname"
+          reactionsEnabled="1"
+          repo="PaperCrane-ovo/AIArtDiscussion"
+          repoId="R_kgDOMBAU-Q"
+          strict="0"
+          theme="noborder_dark"
+        />
+      </div>
     </Section>
   );
 });
