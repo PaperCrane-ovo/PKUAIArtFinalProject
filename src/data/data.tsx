@@ -4,7 +4,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import profilepic from '../images/coloured-co-logo.png'
+import profilepic from '../images/coloured-co-logo.png';
 import jumpimage10 from '../images/jump-logo/jump-举重.png';
 import jumpimage14 from '../images/jump-logo/jump-乒乓球.png';
 import jumpimage9 from '../images/jump-logo/jump-击剑.png';
