@@ -42,6 +42,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}})
   const [mobile, setMobile] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
   const linkRef = useRef<HTMLAnchorElement>(null);
+  const [alwaysShow, setAlwaysShow] = useState(false);
 
   useEffect(() => {
     // Avoid hydration styling errors by setting mobile in useEffect
@@ -56,14 +57,15 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}})
       if (mobile && !showOverlay) {
         event.preventDefault();
         setShowOverlay(!showOverlay);
+        setAlwaysShow(true);
       }
     },
     [mobile, showOverlay],
   );
 
   const style = React.useMemo(
-    () => ({opacity:showOverlay?0:1}),
-    [showOverlay]
+    () => ({opacity:(showOverlay||alwaysShow )?0:1}),
+    [showOverlay,alwaysShow]
   );
 
   return (
