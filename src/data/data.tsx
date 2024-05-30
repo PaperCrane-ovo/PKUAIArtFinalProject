@@ -26,7 +26,6 @@ import jumpimage8 from '../images/jump-logo/jump-艺术体操.png';
 import jumpimage3 from '../images/jump-logo/jump-足球.png';
 import jumpimage11 from '../images/jump-logo/jump-高尔夫.png';
 import keyvisual from '../images/Keyvisual.png';
-import keyvisual_mobile from '../images/Keyvisual-mobile.png';
 import Portfolioimage6 from '../images/portfolio/modify-公牛-柔道v1.jpg';
 import portfolioimage2 from '../images/portfolio/modify-北极熊-拳击v1.jpg';
 import Portfolioimage12 from '../images/portfolio/modify-圣贝尔纳狗-滑板v1.jpg';
@@ -86,7 +85,6 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 // Hero section
 export const heroData: Hero = {
   imageSrc: keyvisual,
-  imageSrcMobile: keyvisual_mobile,
   name: `Paris 2024!`,
   description: (
     <>
