@@ -1,13 +1,4 @@
-// import {
-//   AcademicCapIcon,
-//   // ArrowDownTrayIcon,
-//   BuildingOffice2Icon,
-//   CalendarIcon,
-//   FlagIcon,
-//   MapIcon,
-//   SparklesIcon,
-// } from '@heroicons/react/24/outline';
-
+// image && icon
 import FacebookIcon from '../components/Icon/FacebookIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
@@ -17,38 +8,26 @@ import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/Background.png';
 // import profilepic from '../images/profilepic.jpg';
 import profilepic from '../images/coloured-co-logo.png'
-import Portfolioimage6 from '../images/portfolio/modify-公牛-柔道v1.png';
-import portfolioimage2 from '../images/portfolio/modify-北极熊-拳击v1.png';
-import Portfolioimage12 from '../images/portfolio/modify-圣贝尔纳狗-滑板v1.png';
-import portfolioimage3 from '../images/portfolio/modify-大象-足球v1.png';
-import Portfolioimage19 from '../images/portfolio/modify-朱鹮-帆船v1.png';
-import Portfolioimage5 from '../images/portfolio/modify-梵猫-排球v1.png';
-import Portfolioimage7 from '../images/portfolio/modify-海狸-游泳v1.png';
-import Portfolioimage10 from '../images/portfolio/modify-灰熊-举重v1.png';
-import Portfolioimage14 from '../images/portfolio/modify-熊猫-乒乓球v1.png';
-import Portfolioimage9 from '../images/portfolio/modify-狐猴-击剑v1.png';
-// import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-// import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import portfolioimage1 from '../images/portfolio/modify-白头海雕-篮球v1.png';
-import Portfolioimage16 from '../images/portfolio/modify-眼镜猴-射击v1.png';
-import Portfolioimage18 from '../images/portfolio/modify-知更鸟-射箭.png';
-import Portfolioimage17 from '../images/portfolio/modify-羊驼-网球v1.png';
-import Portfolioimage11 from '../images/portfolio/modify-考拉-高尔夫v1.png';
-import portfolioimage4 from '../images/portfolio/modify-袋鼠-曲棍球v1.png';
-import Portfolioimage15 from '../images/portfolio/modify-雪豹-羽毛球v1.png';
-import Portfolioimage13 from '../images/portfolio/modify-驼鹿-田径.png';
-import Portfolioimage8 from '../images/portfolio/modify-黑颈鹿-体操v1.png';
-import Portfolioimage20 from '../images/portfolio/ori-孟加拉虎-橄榄球v1.png';
-// import testimonialImage from '../images/testimonial.webp';
+import Portfolioimage6 from '../images/portfolio/modify-公牛-柔道v1.jpg';
+import portfolioimage2 from '../images/portfolio/modify-北极熊-拳击v1.jpg';
+import Portfolioimage12 from '../images/portfolio/modify-圣贝尔纳狗-滑板v1.jpg';
+import portfolioimage3 from '../images/portfolio/modify-大象-足球v1.jpg';
+import Portfolioimage19 from '../images/portfolio/modify-朱鹮-帆船v1.jpg';
+import Portfolioimage5 from '../images/portfolio/modify-梵猫-排球v1.jpg';
+import Portfolioimage7 from '../images/portfolio/modify-海狸-游泳v1.jpg';
+import Portfolioimage10 from '../images/portfolio/modify-灰熊-举重v1.jpg';
+import Portfolioimage14 from '../images/portfolio/modify-熊猫-乒乓球v1.jpg';
+import Portfolioimage9 from '../images/portfolio/modify-狐猴-击剑v1.jpg';
+import portfolioimage1 from '../images/portfolio/modify-白头海雕-篮球v1.jpg';
+import Portfolioimage16 from '../images/portfolio/modify-眼镜猴-射击v1.jpg';
+import Portfolioimage18 from '../images/portfolio/modify-知更鸟-射箭.jpg';
+import Portfolioimage17 from '../images/portfolio/modify-羊驼-网球v1.jpg';
+import Portfolioimage11 from '../images/portfolio/modify-考拉-高尔夫v1.jpg';
+import portfolioimage4 from '../images/portfolio/modify-袋鼠-曲棍球v1.jpg';
+import Portfolioimage15 from '../images/portfolio/modify-雪豹-羽毛球v1.jpg';
+import Portfolioimage13 from '../images/portfolio/modify-驼鹿-田径.jpg';
+import Portfolioimage8 from '../images/portfolio/modify-黑颈鹿-体操v1.jpg';
+import Portfolioimage20 from '../images/portfolio/ori-孟加拉虎-橄榄球v1.jpg';
 import {
   About,
   ContactSection,
@@ -61,17 +40,13 @@ import {
   TimelineItem,
 } from './dataDef';
 
-/**
- * Page meta data
- */
+// Page meta data
 export const homePageMeta: HomepageMeta = {
   title: 'Olympic Together - Paris 2024',
   description: "Olympic Together - Paris 2024 - AIArtFinalProject",
 };
 
-/**
- * Section definition
- */
+// Section definition
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
@@ -89,9 +64,7 @@ export const SectionId = {
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 
-/**
- * Hero section
- */
+// Hero section
 export const heroData: Hero = {
   imageSrc: heroImage,
   name: `Paris 2024!`,
@@ -116,21 +89,19 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://olympics.com/zh/paris-2024',
-      text: '前往官网',
+      href: `#${SectionId.About}`,
+      text: '精彩一览',
       primary: true,
     },
     {
-      href: `#${SectionId.About}`,
-      text: '查看介绍',
+      href: 'https://olympics.com/zh/paris-2024',
+      text: '查看更多',
       primary: false,
     },
   ],
 };
 
-/**
- * About section
- */
+// About section
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `我们是北京大学《视觉艺术与计算美学》的 Olympic Together 小组，致力于通过结合计算美学与技术手段，呈现各国文化特色与奥运会体育项目的融合。
@@ -220,76 +191,8 @@ export const skills: SkillGroup[] = [
   },
 ];
 
-/**
- * Portfolio section
- */
+// Portfolio section
 export const portfolioItems: PortfolioItem[] = [
-  // {
-  //   title: 'Project title 1',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage1,
-  // },
-  // {
-  //   title: 'Project title 2',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage2,
-  // },
-  // {
-  //   title: 'Project title 3',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage3,
-  // },
-  // {
-  //   title: 'Project title 4',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage4,
-  // },
-  // {
-  //   title: 'Project title 5',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage5,
-  // },
-  // {
-  //   title: 'Project title 6',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage6,
-  // },
-  // {
-  //   title: 'Project title 7',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage7,
-  // },
-  // {
-  //   title: 'Project title 8',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage8,
-  // },
-  // {
-  //   title: 'Project title 9',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage9,
-  // },
-  // {
-  //   title: 'Project title 10',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage10,
-  // },
-  // {
-  //   title: 'Project title 11',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage11,
-  // },
   {
     title: '白头海雕-篮球',
     description: '白头海雕-篮球',
