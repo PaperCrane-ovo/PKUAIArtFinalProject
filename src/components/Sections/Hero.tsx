@@ -1,7 +1,7 @@
 import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
-import {FC, memo} from 'react';
+import {FC, memo, useState} from 'react';
 
 import {isMobile} from '../../config';
 import {heroData, SectionId} from '../../data/data';
@@ -10,7 +10,10 @@ import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
   const {imageSrc,imageSrcMobile,name, description, actions} = heroData;
-
+  const [mobile, setMobile] = useState(false);
+  if (isMobile) {
+    setMobile(true);
+  }
   return (
     <Section noPadding sectionId={SectionId.Home}>
       <div className="relative flex h-screen w-full items-center justify-center">
@@ -20,7 +23,7 @@ const Hero: FC = memo(() => {
           placeholder="blur"
           priority
           // 检测是否为竖屏或移动设备
-          src={isMobile ? imageSrcMobile : imageSrc}
+          src={mobile ? imageSrcMobile : imageSrc}
         />
         {/* <Image
           src="../images/coloured-co-logo.png"
