@@ -3,15 +3,14 @@ import FacebookIcon from '../components/Icon/FacebookIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/Background.png';
-// import profilepic from '../images/profilepic.jpg';
 import profilepic from '../images/coloured-co-logo.png'
 import Portfolioimage6 from '../images/portfolio/modify-公牛-柔道v1.jpg';
 import portfolioimage2 from '../images/portfolio/modify-北极熊-拳击v1.jpg';
 import Portfolioimage12 from '../images/portfolio/modify-圣贝尔纳狗-滑板v1.jpg';
 import portfolioimage3 from '../images/portfolio/modify-大象-足球v1.jpg';
+import Portfolioimage20 from '../images/portfolio/modify-孟加拉虎-橄榄球v1.jpg';
 import Portfolioimage19 from '../images/portfolio/modify-朱鹮-帆船v1.jpg';
 import Portfolioimage5 from '../images/portfolio/modify-梵猫-排球v1.jpg';
 import Portfolioimage7 from '../images/portfolio/modify-海狸-游泳v1.jpg';
@@ -20,14 +19,13 @@ import Portfolioimage14 from '../images/portfolio/modify-熊猫-乒乓球v1.jpg'
 import Portfolioimage9 from '../images/portfolio/modify-狐猴-击剑v1.jpg';
 import portfolioimage1 from '../images/portfolio/modify-白头海雕-篮球v1.jpg';
 import Portfolioimage16 from '../images/portfolio/modify-眼镜猴-射击v1.jpg';
-import Portfolioimage18 from '../images/portfolio/modify-知更鸟-射箭.jpg';
+import Portfolioimage18 from '../images/portfolio/modify-知更鸟-射箭v1.jpg';
 import Portfolioimage17 from '../images/portfolio/modify-羊驼-网球v1.jpg';
 import Portfolioimage11 from '../images/portfolio/modify-考拉-高尔夫v1.jpg';
 import portfolioimage4 from '../images/portfolio/modify-袋鼠-曲棍球v1.jpg';
 import Portfolioimage15 from '../images/portfolio/modify-雪豹-羽毛球v1.jpg';
-import Portfolioimage13 from '../images/portfolio/modify-驼鹿-田径.jpg';
+import Portfolioimage13 from '../images/portfolio/modify-驼鹿-田径v1.jpg';
 import Portfolioimage8 from '../images/portfolio/modify-黑颈鹿-体操v1.jpg';
-import Portfolioimage20 from '../images/portfolio/ori-孟加拉虎-橄榄球v1.jpg';
 import {
   About,
   ContactSection,
