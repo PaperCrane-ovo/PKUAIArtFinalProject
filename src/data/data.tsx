@@ -101,7 +101,7 @@ export const heroData: Hero = {
         巴黎奥运会将在 2024 年 7 月 26 日至 8 月 11 日举行，届时将有 32 个体育项目，将有 329 个金牌产生。
       </p>
       <p className='prose-sm text-stone-200 sm:prose-base lg:prose-lg'>
-        现在距离奥运会开幕还有  {Math.ceil((new Date('2024-07-26').getTime() - Date.now()) / (1000 * 60 * 60 * 24))} 天。
+        巴黎奥运会现在已经开幕！前往下方可以查看更多精彩内容！
       </p>
     </>
   ),
